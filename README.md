@@ -147,4 +147,4 @@ Projeto desenvolvido por Nicolle durante os estudos em Redes de Computadores.
 
 
 🔗 GitHub:
-[https://github.com/SEU-](https://github.com/nicolle-assis)
+[nicolle-assis](https://github.com/nicolle-assis)

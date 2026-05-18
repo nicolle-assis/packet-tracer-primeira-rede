@@ -1,228 +1,150 @@
-\# 🌐 Primeiro Cenário no Cisco Packet Tracer
+# 🌐 Comunicação entre Dois PCs no Cisco Packet Tracer
 
+![Status](https://img.shields.io/badge/status-concluído-success)
+![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
+![IPv4](https://img.shields.io/badge/IPv4-configurado-informational)
+![ICMP](https://img.shields.io/badge/ICMP-testado-orange)
 
+Projeto desenvolvido para praticar conceitos fundamentais de redes de computadores utilizando o Cisco Packet Tracer.
 
-Projeto desenvolvido para praticar conceitos básicos de redes utilizando o Cisco Packet Tracer.
+O cenário simula uma comunicação direta entre dois computadores utilizando configuração manual de IP e teste de conectividade via ICMP.
 
+---
 
+# 📑 Índice
 
-\---
+- [📖 Descrição do Projeto](#-descrição-do-projeto)
+- [🖥️ Topologia da Rede](#️-topologia-da-rede)
+- [⚙️ Configuração da Rede](#️-configuração-da-rede)
+- [🔌 Tipo de Cabo Utilizado](#-tipo-de-cabo-utilizado)
+- [📡 Teste de Conectividade](#-teste-de-conectividade)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [📚 Conceitos Praticados](#-conceitos-praticados)
+- [🚀 Aprendizados](#-aprendizados)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [▶️ Como Abrir o Projeto](#️-como-abrir-o-projeto)
+- [👩‍💻 Autora](#-autora)
 
+---
 
+# 📖 Descrição do Projeto
 
-\# 📖 Objetivo
+Este projeto foi criado com o objetivo de praticar os primeiros conceitos de redes no Cisco Packet Tracer.
 
+A atividade consiste em:
 
+- conectar dois computadores;
+- configurar IP manualmente;
+- utilizar o cabo correto;
+- validar a comunicação utilizando ICMP.
 
-Criar uma comunicação ponto a ponto entre dois computadores utilizando:
+Esse é meu primeiro projeto utilizando o Packet Tracer durante meus estudos em Redes de Computadores.
 
+---
 
+# 🖥️ Topologia da Rede
 
-\- Configuração manual de IP
+![Topologia](imagens/topologias.png)
 
-\- Cabo crossover
+---
 
-\- Teste de conectividade com ICMP
+# ⚙️ Configuração da Rede
 
-
-
-\---
-
-
-
-\# 🖥️ Topologia da Rede
-
-
-
-!\[Topologia](imagens/topologias.png)
-
-
-
-\---
-
-
-
-\# ⚙️ Configuração dos Dispositivos
-
-
-
-\## PC0
-
-
-
-| Configuração | Valor |
-
-|---|---|
-
-| IP | 192.168.1.10 |
-
-| Máscara de Rede | 255.255.255.0 |
-
-
-
-\---
-
-
-
-\## PC1
-
-
+## 🖥️ PC0
 
 | Configuração | Valor |
-
 |---|---|
-
-| IP | 192.168.1.11 |
-
+| Endereço IP | 192.168.1.10 |
 | Máscara de Rede | 255.255.255.0 |
 
+---
 
+## 🖥️ PC1
 
-\---
+| Configuração | Valor |
+|---|---|
+| Endereço IP | 192.168.1.11 |
+| Máscara de Rede | 255.255.255.0 |
 
+---
 
+# 🔌 Tipo de Cabo Utilizado
 
-\# 🔌 Tipo de Conexão
+Foi utilizado o cabo:
 
+```text
+Copper Cross-Over
+```
 
+O cabo crossover é utilizado para comunicação direta entre dispositivos do mesmo tipo, como:
 
-Foi utilizado:
+- PC ↔ PC
+- Switch ↔ Switch
+- Router ↔ Router
 
+---
 
+# 📡 Teste de Conectividade
 
-\- Cabo Copper Cross-Over
+O teste foi realizado utilizando o protocolo ICMP no modo *Simulation* do Cisco Packet Tracer.
 
-
-
-Como a conexão foi feita entre dois computadores, foi necessário utilizar um cabo crossover.
-
-
-
-\---
-
-
-
-\# 📡 Teste de Conectividade
-
-
-
-O teste foi realizado utilizando o protocolo ICMP no modo Simulation do Packet Tracer.
-
-
-
-Resultado:
-
-
+Resultado do teste:
 
 ✅ Comunicação realizada com sucesso entre os dispositivos.
 
+![Teste de Conectividade](imagens/teste-conectividade.png)
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+- Cisco Packet Tracer
+- IPv4
+- ICMP
+- Ethernet
+- Simulação de Redes
+
+---
+
+# 📚 Conceitos Praticados
+
+- Comunicação entre hosts
+- Configuração manual de IP
+- Máscara de rede
+- Uso de cabo crossover
+- Teste de conectividade
+- Simulation Mode
+- ICMP/Ping
 
 
-!\[Teste de Conectividade](imagens/teste-conectividade.png)
+---
 
+# ▶️ Como Abrir o Projeto
 
+## Pré-requisitos
 
-\---
+- Cisco Packet Tracer instalado
 
+## Passos
 
-
-\# 🛠️ Tecnologias Utilizadas
-
-
-
-\- Cisco Packet Tracer
-
-\- IPv4
-
-\- ICMP
-
-\- Ethernet
-
-\- Simulação de Redes
-
-
-
-\---
-
-
-
-\# 📚 Conceitos Praticados
-
-
-
-\- Comunicação entre hosts
-
-\- Configuração manual de IP
-
-\- Máscara de rede
-
-\- Teste de conectividade
-
-\- Uso de cabo crossover
-
-\- Modo Simulation
-
-
-
-\---
-
-
-
-\# 🚀 Aprendizados
-
-
-
-Durante este projeto foi possível entender:
-
-
-
-\- Como conectar dois computadores diretamente
-
-\- Diferença entre cabo direto e crossover
-
-\- Como configurar IP manualmente
-
-\- Como testar comunicação utilizando ICMP
-
-\- Funcionamento básico de uma rede local
-
-
-
-\---
-
-
-
-\# 📁 Estrutura do Projeto
-
-
-
-```text
-
-packet-tracer-primeira-rede/
-
-│
-
-├── packet-tracer-primeira-rede.pkt
-
-├── README.md
-
-└── imagens/
-
-&#x20;   ├── topologias.png
-
-&#x20;   └── teste-conectividade.png
-
+```bash
+# Clone este repositório
+git clone https://github.com/SEU-USUARIO/packet-tracer-primeira-rede
 ```
 
+Depois:
+
+- abra o arquivo `.pkt`;
+- execute o Packet Tracer;
+- entre no modo *Simulation*;
+- visualize o teste ICMP.
+
+---
+
+# 👩‍💻 Autora
+
+Projeto desenvolvido por Nicolle durante os estudos em Redes de Computadores.
 
 
-\---
-
-
-
-\# 👩‍💻 Autora
-
-
-
-Projeto desenvolvido por Nicolle como parte dos estudos em Redes de Computadores.
-
+🔗 GitHub:
+[https://github.com/SEU-](https://github.com/nicolle-assis)
